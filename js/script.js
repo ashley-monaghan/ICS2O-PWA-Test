@@ -21,3 +21,10 @@ if (navigator.serviceWorker) {
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
 }
+
+/**
+ * This function displays an alert.
+ */
+function calculate() {
+  document.getElementById("numbers").innerHTML = "<p>Hello, World!</p>"
+}
