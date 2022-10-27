@@ -15,12 +15,11 @@ if (navigator.serviceWorker) {
   })
 }
 
-
 /**
  * This function displays an alert.
  * Math
  */
- function calculate() {
+function calculate() {
   // input
   const a = parseInt(document.getElementById("textbox-a").value)
   const b = parseInt(document.getElementById("textbox-b").value)
@@ -36,6 +35,6 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  * Words
  */
- function button() {
+function button() {
   document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
 }
